@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/img/headphones.svg">
+    <title>Bateria</title>
+</head>
+<body>
+    <main>
+        
+        <h1>🎶 Bateria 🎶</h1>
+        <div class="keys">
+            <div class="key" id="keyQ" data-key="keyq">Q</div>
+            <div class="key" id="keyW" data-key="keyw">W</div>
+            <div class="key" id="keyE" data-key="keye">E</div>
+            
+            <div class="key" id="keyA" data-key="keya">A</div>
+            <div class="key" id="keyS" data-key="keys">S</div>
+            <div class="key" id="keyD" data-key="keyd">D</div>
+            
+            <div class="key" id="keyZ" data-key="keyz">Z</div>
+            <div class="key" id="keyX" data-key="keyx">X</div>
+            <div class="key" id="keyC" data-key="keyc">C</div>
+        </div>
+        
+        <div class="composer">
+            <input type="text" id="input" placeholder="Faça sua música">
+            <button class="btnPlay" onclick="playMusic()">Tocar</button>
+        </div>
+        <footer>Criado pelo desenvolvedor <strong>Kevin Ferreira</strong>.</footer>
+    </main>
+
+
+    <audio src="./assets/sounds/keyq.wav" id="s_keyq"></audio>
+    <audio src="./assets/sounds/keyw.wav" id="s_keyw"></audio>
+    <audio src="./assets/sounds/keye.wav" id="s_keye"></audio>
+
+    <audio src="./assets/sounds/keya.wav" id="s_keya"></audio>
+    <audio src="./assets/sounds/keys.wav" id="s_keys"></audio>
+    <audio src="./assets/sounds/keyd.wav" id="s_keyd"></audio>
+
+    <audio src="./assets/sounds/keyz.wav" id="s_keyz"></audio>
+    <audio src="./assets/sounds/keyx.wav" id="s_keyx"></audio>
+    <audio src="./assets/sounds/keyc.wav" id="s_keyc"></audio>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
